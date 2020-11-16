@@ -1,0 +1,341 @@
+@font-face {
+    font-family: "HKConcentrateMedium";
+    src: url(/fonts/HKConcentrate/HKConcentrate-Medium.ttf);
+    font-weight: 400;
+
+}
+
+@font-face {
+    font-family: "HKConcentrateLight";
+    src: url(/fonts/HKConcentrate/HKConcentrate-Light.ttf);
+    font-weight: normal;
+}
+
+:root {
+    --primary-highlight: #2fe0c5;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "HKConcentrateLight";
+    color: #444;
+}
+
+#bold {
+    font-family: "HKConcentrateMedium";
+}
+
+#highlight {
+    color: var(--primary-highlight);
+}
+
+#greeting {
+    color: var(--primary-highlight);
+}
+
+/* Landing page styles */
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header-container {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.header-container h2 {
+    font-size: 2.8rem;
+    line-height: 40px;
+}
+
+.header-container h4 {
+    font-size: 1.2rem;
+}
+
+.header-container h2:nth-child(2) {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 1.8rem;
+}
+
+.header-container h4 {
+    margin-bottom: 50px;
+}
+
+/* Background information section */
+.background-container {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    width: 100%;
+}
+
+.background {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.background h5 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--primary-highlight);
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.background-text p {
+    margin-top: 0 10%;
+    line-height: 25px;
+    margin: 0 10%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.background-text p:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.skills-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.skills h5 {
+    margin-bottom: 20px;
+    color: var(--primary-highlight);
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+}
+
+.languages,
+.tools {
+    margin-bottom: 30px;
+}
+
+.languages,
+.tools {
+    margin-right: 40px;
+}
+
+.languages li,
+.frameworks li,
+.tools li,
+.design li {
+    list-style-type: none;
+}
+
+.languages ul,
+.frameworks ul,
+.tools ul,
+.design ul {
+    margin-bottom: 8px;
+}
+
+.languages h6,
+.frameworks h6,
+.tools h6,
+.design h6 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Portfolio section */
+.portfolio-section {
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.portfolio-section h5 {
+    text-transform: uppercase;
+    color: var(--primary-highlight);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: HKConcentrateMedium;
+}
+
+.portfolio-section h6 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 350px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.container a {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    outline-style: none;
+}
+
+.container h3 {
+    position: absolute;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateZ(60px);
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    text-shadow: 0 2px 5px black;
+}
+
+/* Carousel */
+.carousel {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: var(--primary-highlight);
+}
+
+.carousel-cell {
+    margin-right: 20px;
+    overflow: hidden;
+}
+  
+.carousel-cell img {
+    display: block;
+    height: 200px;
+}
+
+/* Footer */
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+.footer-text h4 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: var(--primary-highlight);
+    transition: 0.2s;
+}
+
+.footer-text a:hover {
+    color: #444;
+}
+
+/* Media query */
+@media screen and ( min-width: 768px ) {
+    .carousel-cell img {
+      height: 400px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Landing page */
+    .header-container {
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: 200px;
+    }
+
+    .header-container h2:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .background {
+        margin-bottom: 60px;
+    }
+
+    .background-text p {
+        font-size: 1.01em;
+    }
+
+    .languages h6,
+    .frameworks h6,
+    .tools h6,
+    .design h6 {
+        font-size: 16px;
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .container h3 {
+        font-size: 2.3rem;
+    }
+}

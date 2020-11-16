@@ -1,0 +1,99 @@
+/* Architect design colour scheme */
+#architect img {
+    border-top: 30px solid #e6eefd;
+    border-bottom: 30px solid #e6eefd;
+}
+
+#architect h3 {
+    color: #fde6ee;
+}
+
+/* Music application colour scheme */
+#spa-app img {
+    border-top: 30px solid #ed6495;
+    border-bottom: 30px solid #ed6495;
+}
+
+#spa-app h3 {
+    color: #61dafb;
+}
+
+/* Restaurant design colour scheme */
+#restaurant img {
+    border-top: 30px solid #f0a400;
+    border-bottom: 30px solid #f0a400;
+}
+
+#restaurant h3 {
+    color: #739173;
+}
+
+/* Law design colour scheme */
+#law img {
+    border-top: 30px solid #243dca;
+    border-bottom: 30px solid #243dca;
+}
+
+#law h3 {
+    color: #25c4ac;
+}
+
+/* Comic design colour scheme */
+#comic img {
+    border-top: 30px solid #00bdbd;
+    border-bottom: 30px solid #00bdbd;
+}
+
+#comic h3 {
+    color: #ec2e2e;
+}
+
+/* Fashion design colour scheme */
+#fashion img {
+    border-top: 30px solid #ff7979;
+    border-bottom: 30px solid #ff7979;
+}
+
+#fashion h3 {
+    color: #fffaff;
+}
+
+/* GitHub Jobs colour scheme */
+#github-app img {
+    border-top: 30px solid #daff54;
+    border-bottom: 30px solid #daff54;
+}
+
+#github-app h3 {
+    color: #61dafb;
+}
+
+/* CodePen Clone colour scheme */
+#codepen-app img {
+    border-top: 30px solid #d1df50;
+    border-bottom: 30px solid #d1df50;
+}
+
+#codepen-app h3 {
+    color: #61dafb;
+}
+
+/* Youtube API colour scheme */
+#youtube-app img {
+    border-top: 30px solid #a8042d;
+    border-bottom: 30px solid #a8042d;
+}
+
+#youtube-app h3 {
+    color: #61dafb;
+}
+
+/* Map application colour scheme */
+#map-app img {
+    border-top: 30px solid #13af13;
+    border-bottom: 30px solid #13af13;
+}
+
+#map-app h3 {
+    color: #a7fff3;
+}
