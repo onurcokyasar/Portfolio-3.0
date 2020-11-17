@@ -10,8 +10,8 @@
 
 /* Music application colour scheme */
 #spa-app img {
-    border-top: 30px solid #ed6495;
-    border-bottom: 30px solid #ed6495;
+    border-top: 30px solid #f5b9ce;
+    border-bottom: 30px solid #f5b9ce;
 }
 
 #spa-app h3 {
@@ -20,8 +20,8 @@
 
 /* Restaurant design colour scheme */
 #restaurant img {
-    border-top: 30px solid #f0a400;
-    border-bottom: 30px solid #f0a400;
+    border-top: 30px solid #ebc472;
+    border-bottom: 30px solid #ebc472;
 }
 
 #restaurant h3 {
@@ -30,8 +30,8 @@
 
 /* Law design colour scheme */
 #law img {
-    border-top: 30px solid #243dca;
-    border-bottom: 30px solid #243dca;
+    border-top: 30px solid #6b78c7;
+    border-bottom: 30px solid #6b78c7;
 }
 
 #law h3 {
@@ -40,8 +40,8 @@
 
 /* Comic design colour scheme */
 #comic img {
-    border-top: 30px solid #00bdbd;
-    border-bottom: 30px solid #00bdbd;
+    border-top: 30px solid #90e4e4;
+    border-bottom: 30px solid #90e4e4;
 }
 
 #comic h3 {
@@ -50,8 +50,8 @@
 
 /* Fashion design colour scheme */
 #fashion img {
-    border-top: 30px solid #ff7979;
-    border-bottom: 30px solid #ff7979;
+    border-top: 30px solid #f1abab;
+    border-bottom: 30px solid #f1abab;
 }
 
 #fashion h3 {
@@ -60,8 +60,8 @@
 
 /* GitHub Jobs colour scheme */
 #github-app img {
-    border-top: 30px solid #daff54;
-    border-bottom: 30px solid #daff54;
+    border-top: 30px solid #ddf099;
+    border-bottom: 30px solid #ddf099;
 }
 
 #github-app h3 {
@@ -70,8 +70,8 @@
 
 /* CodePen Clone colour scheme */
 #codepen-app img {
-    border-top: 30px solid #d1df50;
-    border-bottom: 30px solid #d1df50;
+    border-top: 30px solid #a0e290;
+    border-bottom: 30px solid #a0e290;
 }
 
 #codepen-app h3 {
@@ -80,8 +80,8 @@
 
 /* Youtube API colour scheme */
 #youtube-app img {
-    border-top: 30px solid #a8042d;
-    border-bottom: 30px solid #a8042d;
+    border-top: 30px solid #e06363;
+    border-bottom: 30px solid #e06363;
 }
 
 #youtube-app h3 {
@@ -90,10 +90,30 @@
 
 /* Map application colour scheme */
 #map-app img {
-    border-top: 30px solid #13af13;
-    border-bottom: 30px solid #13af13;
+    border-top: 30px solid #7fdb7f;
+    border-bottom: 30px solid #7fdb7f;
 }
 
 #map-app h3 {
     color: #a7fff3;
+}
+
+/* Tracker colour scheme*/
+#tracker-app img {
+    border-top: 30px solid #e7e69c;
+    border-bottom: 30px solid #e7e69c;
+}
+
+#tracker-app h3 {
+    color: #61dafb;
+}
+
+/* Movies application colour scheme */
+#movies-app img {
+    border-top: 30px solid #e7e69c;
+    border-bottom: 30px solid #e7e69c;
+}
+
+#movies-app h3 {
+    color: #61dafb;
 }
