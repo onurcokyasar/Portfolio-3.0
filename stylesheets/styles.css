@@ -369,13 +369,13 @@ header {
     background-color: rgba(0, 0, 0, 0);
     color: #2fe0c5;
     border: 2px solid #2fe0c5;
-    width: 160px;
-    height: 40px;
+    width: 105px;
+    height: 45px;
     margin-top: 40px;
     transition: 0.2s;
     cursor: pointer;
     outline: none;
-    font-size: 1.3rem;
+    font-size: 1.01rem;
     margin-bottom: 20px;
 }
 
@@ -441,6 +441,8 @@ header {
     }
 
     .modal-body button {
+        width: 140px;
+        height: 40px;
         font-size: 1.1rem;
     }
 }
