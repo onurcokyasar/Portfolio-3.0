@@ -377,6 +377,7 @@ header {
     outline: none;
     font-size: 1.01rem;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .modal-body button:hover {
